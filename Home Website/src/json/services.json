@@ -1,0 +1,17 @@
+{
+    "s001": {
+        "title": "Custom PC building",
+        "description": "there are many PC builder companies out there that will give you normal PC's in a range of qualities and capabilities but theyre all the same, using the simple off the shelf consumer hardware limiting you to what everyone else has. but if you want something strange or out of the norm, im your best bet. such as workstations with numerous gpu's or multi computer PC's ready for veilos.",
+        "image": ["", ""]
+    },
+    "s002": {
+        "title": "Hardware consultancy",
+        "description": "weather its an upgrade to a gaiming PC, or designing a budget friendly workstation for specific usage I can help you design your perfect computer whatever your constriants.",
+        "image": ["", ""]
+    },
+    "s003": {
+        "title": "Software commissions",
+        "description": "want to build an app? or designing a game; commissions are open",
+        "image": ["", ""]
+    }
+}

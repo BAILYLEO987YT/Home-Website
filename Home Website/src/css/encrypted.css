@@ -1,0 +1,26 @@
+.enc-btn {
+    --dur: 350ms;
+    display: inline-grid;          /* lets effect 3 stack two layers */
+    place-items: center;
+    padding: 0.8rem 1.4rem;
+    font: 600 1rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.06em;
+    color: #e9e9ee;
+    background: #17171c;
+    border: 1px solid #2a2a32;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 250ms;
+}
+.enc-btn:hover,
+.enc-btn:focus-visible { border-color: #6ee7b7; outline: none; }
+
+/* per-character spans (effects 1 & 2) */
+.enc-btn .label { display: block; white-space: nowrap; }
+
+.enc-btn .char {
+    display: inline-block;   /* ← transforms are ignored on inline boxes */
+    white-space: pre;
+    will-change: transform;
+}

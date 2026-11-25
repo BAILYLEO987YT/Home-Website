@@ -1,0 +1,26 @@
+{
+    "p001": {
+        "title": "VEILOS",
+        "description": "An operating system designed as an alternative to Windows 11, with decisive architectural differences that allow for better hardware control, better security, and better performance.",
+        "tags": ["Rust", "Kernel", "System", "Flagship"],
+        "link": "https://github.com/BAILYLEO987YT/VEILOS.git"
+    },
+    "p002": {
+        "title": "VEIL-GUARD mkI",
+        "description": "the first version of veilguard designed and written in python using standard pthon encryption libraries. the app has a basic stack of these aftformentioned standards to encrypt files and store the keys in vault folders mixed with chaff.",
+        "tags": ["Python", "encryption", "application", "depreciated"],
+        "link": ""
+    },
+    "p003": {
+        "title": "VEIL-GUARD mkII",
+        "description": "an encryption app designed for secure file encryption and key vaults rewritten in Rust, this version of the app is more secure than the previous version by utilising a rotating encryption stack based on numerous seperate factors.",
+        "tags": ["Rust", "encryption", "application", "depreciated"],
+        "link": ""
+    },
+    "p004": {
+        "title": "VEIL-GUARD mkIII",
+        "description": "an encryption app with a pleathora of features such as key vaults, encrypted p2p chat, file/text encoding and file encryption all using custom stacks of encryption standards including PQM.",
+        "tags": ["Rust", "encryption", "application", "end of support"],
+        "link": ""
+    }
+}

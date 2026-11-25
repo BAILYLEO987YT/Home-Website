@@ -1,0 +1,106 @@
+.un-helper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    z-index: 9999;
+}
+.un-helper > button {
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    border-radius: 50%;
+    border: 5px solid #3344dc;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+.un-helper > button:hover  {
+    transform: translateY(-5px); 
+    filter: brightness(0.85);
+}
+.un-helper > button:active { 
+    transform: translateY(3px);
+    filter: brightness(0.7);
+}
+.un-helper > button img { 
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+.wrapper {
+    display: none;
+    width: 340px;
+    max-width: calc(100vw - 40px);
+    padding: 12px;
+    background-color: var(--secondary-color, #EBEBEB);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.wrapper.open {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.log {
+    height: 60vh;
+    padding: 10px;
+    background-color: #EBEBEB;
+    border-radius: 12px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.msg {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 14px;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+.msg.bot  {
+    background: #fff;
+    color: #111;
+    align-self: flex-start;
+}
+.msg.user {
+    background: #3344dc;
+    color: #fff;
+    align-self: flex-end;
+}
+.msg.typing {
+    font-style: italic;
+    color: #888;
+}
+.wrapper form {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px;
+    background: #fff;
+    border-radius: 999px;
+}
+.wrapper form input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font: inherit;
+    color: #111;
+}
+.wrapper form button {
+    display: flex;
+    padding: 6px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
